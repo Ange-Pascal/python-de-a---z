@@ -39,3 +39,11 @@ print(f"la longueur de la phrase est: {len(phrase)}" )
 print(f"Phrase en majiscule:  {phrase.upper()}")
 print(f"Phrase sans espace:  {phrase.strip()}") 
 print(f"Nombre de e : {phrase.lower().count('e')}")
+
+# Exercice 3 :
+
+texte = input("Entrer une phrase")
+if "python" in texte.lower() : 
+    print(f"oui, cette phrase contient le mot python")
+else: 
+    print("Non, le mot python n'est pas présent")
