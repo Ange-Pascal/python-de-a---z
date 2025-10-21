@@ -29,4 +29,13 @@ Je ne vais plus au Damier
 print(len(message))
 print(message.find(str(a))) 
 
-print(text)
+print(text) 
+
+# Exercice 
+
+phrase = input("Entrer une phrase") 
+
+print(f"la longueur de la phrase est: {len(phrase)}" )
+print(f"Phrase en majiscule:  {phrase.upper()}")
+print(f"Phrase sans espace:  {phrase.strip()}") 
+print(f"Nombre de e : {phrase.lower().count('e')}")
