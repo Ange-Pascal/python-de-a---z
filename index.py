@@ -60,9 +60,32 @@
 
 # Exercice 1 : Age 
 
-age = int(input("Entrez votre age"))
+# age = int(input("Entrez votre age"))
 
-if age < 18 : 
-    print("Mineur")
-else: 
-    print("Majeur")
+# if age < 18 : 
+#     print("Mineur")
+# else: 
+#     print("Majeur")
+
+# Exercice 2 
+
+# nombre = float(input("Entrez un nombre : "))
+
+# if nombre > 0 : 
+#     print("Positif")
+# elif nombre < 0 :
+#     print("Negatif")
+# else : 
+#     print("Zéro")
+
+# Exercice 3 
+
+print("Je veux deux nombres pour les comparer:")
+
+nombre1 = float(input("Entrez le nombre numero 1 : "))
+nombre2 = float(input("Entrez le nombre numero 2 : "))
+
+if nombre1 > nombre2 : 
+    print(f"{nombre1} est le plus grand")
+else : 
+    print(f"{nombre2} est le plus grand")
