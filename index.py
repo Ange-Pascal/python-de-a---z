@@ -80,12 +80,23 @@
 
 # Exercice 3 
 
-print("Je veux deux nombres pour les comparer:")
+# print("Je veux deux nombres pour les comparer:")
 
-nombre1 = float(input("Entrez le nombre numero 1 : "))
-nombre2 = float(input("Entrez le nombre numero 2 : "))
+# nombre1 = float(input("Entrez le nombre numero 1 : "))
+# nombre2 = float(input("Entrez le nombre numero 2 : "))
 
-if nombre1 > nombre2 : 
-    print(f"{nombre1} est le plus grand")
-else : 
-    print(f"{nombre2} est le plus grand")
+# if nombre1 > nombre2 : 
+#     print(f"{nombre1} est le plus grand")
+# else : 
+#     print(f"{nombre2} est le plus grand")
+
+
+
+# Leçon 6 les boucles 
+
+#Exercice 1 : Somme 
+
+somme = 0
+for i in range(1, 11):
+    somme += i
+print("Somme =", somme)
