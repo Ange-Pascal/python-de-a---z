@@ -94,9 +94,48 @@
 
 # Leçon 6 les boucles 
 
-#Exercice 1 : Somme 
+#Exercice 1 : Sommegit 
 
-somme = 0
-for i in range(1, 11):
-    somme += i
-print("Somme =", somme)
+# somme = 0
+# for i in range(1, 11):
+#     somme += i
+# print("Somme =", somme)
+
+# Exercice Pratiques 
+
+# Exo 1 
+
+# for i in range(1, 11): 
+#     print(i)
+
+# Exo 2
+
+# for i in range(1,11): 
+#     print(f"7 * {i} = {7*i}")
+
+# Exo 3 
+
+# somme = 0
+# for i in range(1,6):
+#     nombre =float(input(f"Entrer le nombre numero {i}: ")) 
+#     somme += nombre 
+
+# print(f"La somme des 5 nombres est : {somme}" )
+
+# motInverser = ""
+# mot = input("Entrer un mot: ")
+
+# for i in range(len(mot)-1, -1, -1): 
+#     motInverser += mot[i]
+# print(motInverser)
+
+# Exo 5 
+
+
+password ="python123"
+passwordEnter = input("Entrer votre password: ")
+
+while passwordEnter != password :
+    print("mot de passe incorrect")
+    passwordEnter = input("Enter  votre password")
+print("Accès autorisé")
